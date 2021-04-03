@@ -12,14 +12,14 @@ div.imageWrap {
 
 .header { /* header */
     width: 100%;
-    background-color: #ff0000;
+    background-color: #ec87ec;
     text-align: center;
     justify-content: center;
 }
 
 .main { /* main*/
     width: 100%;
-    background-color: lightblue;
+    background-color: #87d8ec;
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -28,7 +28,7 @@ div.imageWrap {
 }
 
 .tile-left {
-    background-color: #f1f1f1;
+    background-color: #87d8ec;
     display: flex;
     flex-direction: column;
     align-items: center;
