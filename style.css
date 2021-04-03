@@ -19,7 +19,6 @@ div.imageWrap {
 
 .main { /* main*/
     width: 100%;
-    background-color: #87d8ec;
     display: flex;
     flex-direction: row;
     font-size: 30px;
@@ -28,7 +27,6 @@ div.imageWrap {
 }
 
 .tile-left {
-    background-color: #87d8ec;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,7 +70,7 @@ h1 {
 p {
     font-family: verdana;
     font-size: 20px;
-    padding: 10px;
+
 }
 
 name {
