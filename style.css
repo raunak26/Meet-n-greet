@@ -3,7 +3,7 @@ img {
 }
 
 body {
-    background-color: #9eec87;
+    background-color: #f5b2f5;
 }
 
 div.imageWrap {
@@ -13,7 +13,7 @@ div.imageWrap {
 
 .header { /* header */
     width: 100%;
-    background-color: #ec87ec;
+    background-color: #f793f7;
     text-align: center;
     justify-content: center;
 }
@@ -36,7 +36,7 @@ div.imageWrap {
 }
 
 .tile-middle {
-    background-color: dodgerblue;
+    background-color: #f56ff5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,7 +45,7 @@ div.imageWrap {
 }
 
 .tile-right {
-    background-color: #87d8ec;
+    background-color: #f557f5;
     display: flex;
     flex-direction: column;
     align-items: center;
