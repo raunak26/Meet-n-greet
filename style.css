@@ -7,8 +7,9 @@ body {
 }
 
 div.imageWrap {
-  width: 200px;
+  width: 150px;
   padding: 20px;
+  text-align: center;
 }
 
 .header { /* header */
@@ -21,73 +22,24 @@ div.imageWrap {
 .main { /* main*/
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     font-size: 30px;
-    text-align: center;
     align-items: center;
-}
-
-.tile-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    flex: 33%;
-}
-
-.tile-middle {
-    background-color: #f56ff5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    flex: 33%;
-}
-
-.tile-right {
-    background-color: #f557f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    flex: 33%;
-}
-
-@media (max-width: 800px) {
-    .main {
-        flex-direction: column;
-    }
-    .tile-right, .tile-middle, .tile-left {
-        flex-direction: row;
-    }
+    justify-content: center;
 }
 
 h1 {
     font-family: verdana;
     font-size: 300%;
+    font-weight: 700;
     padding: 10px;
 }
 
 p {
     font-family: verdana;
-    font-size: 20px;
-
+    font-size: 16px;
 }
 
-name {
-    font-family: verdana;
-    font-size: 20px;
-    padding: 10px;
-}
-
-major {
-    font-family: verdana;
-    font-size: 20px;
-    padding: 10px;
-}
-
-word {
-    font-family: verdana;
-    font-size: 20px;
-    padding: 10px;
+.name {
+    font-weight: 700;
 }
