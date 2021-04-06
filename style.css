@@ -2,12 +2,17 @@ img {
   width: 100%;
 }
 
+
+
 body {
     background-color: #f5b2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 div.imageWrap {
-  width: 150px;
+  width: 130px;
   padding: 20px;
   text-align: center;
 }
@@ -20,24 +25,26 @@ div.imageWrap {
 }
 
 .main { /* main*/
-    width: 100%;
+    max-width: 600px;
     display: flex;
     flex-wrap: wrap;
+    flex-flow: row wrap;
     font-size: 30px;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 h1 {
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 300%;
     font-weight: 700;
     padding: 10px;
 }
 
 p {
-    font-family: verdana;
-    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
 }
 
 .name {
